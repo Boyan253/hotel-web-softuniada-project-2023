@@ -23,7 +23,7 @@ exports.getContactPage = (req, res) => {
 exports.postContactPage = async(req, res) => {
     const { name, email, subject, message} = req.body;
 
-    const info = 'Your message has been subbmitted. Someone from our team will reach you soon';
+    const info = 'Your message has been submitted. Someone from our team will reach you soon';
 
     res.render('contact', {info});
 }
