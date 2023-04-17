@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="/css/styles.css">
-
+     
     <title>Home</title>
-
+   
 </head>
 
 <body>
@@ -22,7 +22,7 @@
                 <!-- All users -->
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About us</a></li>
-                <li><a href="/destinations/book">Reserve</a></li>
+                <li><a href="/destinations/book">Reserve a Hotel</a></li>
                 <li><a href="/contacts">Contact us</a></li>
                 {{#if isAuthenticated}}
                 <!-- Logged in users -->
@@ -30,16 +30,16 @@
                 <!-- <li><a href="/destinations/add">Add Accommodation</a></li> -->
                 <li><a href="/users/profile">Profile Page</a></li>
                 {{else}}
-                <!-- Not logged in users -->
+                 <!-- Not logged in users -->
                 <li><a href="/users/login">Sign in</a></li>
                 <li><a href="/users/register">Join</a></li>
-                {{/if}}
+                {{/if}} 
             </ul>
         </nav>
     </header>
 
     {{{body}}}
-
+   
 
     <footer class="footer">
         <div class="footer-container">
@@ -57,19 +57,19 @@
                     <h4>get help</h4>
                     <ul>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#">company policy</a></li>
-                        <li><a href="#">refund</a></li>
-                        <li><a href="#">reservation status</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
                         <li><a href="#">payment options</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>information</h4>
+                    <h4>online shop</h4>
                     <ul>
-                        <li><a href="#">what to pack</a></li>
-                        <li><a href="#">travel arrangements</a></li>
-                        <li><a href="#">accommodation</a></li>
-                        <li><a href="#">itinerary</a></li>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -91,7 +91,6 @@
     <script src="/assets/slideShow.js"></script>
     <script src="/assets/counter.js"></script>
     <script src="/assets/dataAsset.js"></script>
-    <script src="/assets/filteringHome.js"></script>
 </body>
 
 </html>
